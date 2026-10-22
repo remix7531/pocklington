@@ -22,8 +22,8 @@
    @version $Revision$
  *)
 
-Require Import Arith.
-Require Import ZArith.
+From Stdlib Require Import Arith.
+From Stdlib Require Import ZArith.
 
 Require Import lemmas.
 Require Import natZ.

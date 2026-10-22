@@ -24,8 +24,8 @@
 
 Global Set Asymmetric Patterns.
 
-Require Import ZArith.
-Require Import EqNat.
+From Stdlib Require Import ZArith.
+From Stdlib Require Import EqNat.
 
 Lemma predminus1 : forall n : nat, pred n = n - 1.
 Proof.

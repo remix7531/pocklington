@@ -22,9 +22,9 @@
    @version $Revision$
 *)
 
-Require Import Arith.
-Require Import ZArith.
-Require Import EqNat.
+From Stdlib Require Import Arith.
+From Stdlib Require Import ZArith.
+From Stdlib Require Import EqNat.
 
 Require Import dec.
 Require Import natZ.

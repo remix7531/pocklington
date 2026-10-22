@@ -22,9 +22,9 @@
    @version $Revision$
 *)
 
-Require Import Arith.
-Require Import ZArith.
-Require Import Wf_nat.
+From Stdlib Require Import Arith.
+From Stdlib Require Import ZArith.
+From Stdlib Require Import Wf_nat.
 
 Require Import lemmas.
 Require Import natZ.

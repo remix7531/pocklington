@@ -23,8 +23,8 @@
    @version $Revision$
 *)
 
-Require Import ZArith.
-Require Import EqNat.
+From Stdlib Require Import ZArith.
+From Stdlib Require Import EqNat.
 
 Require Import lemmas.
 
