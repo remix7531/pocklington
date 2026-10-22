@@ -467,6 +467,7 @@ Proof.
 Qed.
 
 Lemma S_inj : forall n m : nat, S n = S m -> n = m.
+Proof.
   intros n m H; injection H; trivial.
 Qed.
 

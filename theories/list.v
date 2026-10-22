@@ -71,8 +71,6 @@ Fixpoint map (A B : Set) (f : A -> B) (l : list A) {struct l} :
   | Cons a r => Cons B (f a) (map A B f r)
   end.
 
-Notation Map := (map _ _) (only parsing).
-
 Lemma map_length :
  forall (A B : Set) (f : A -> B) (l : list A),
  length A l = length B (map A B f l).
